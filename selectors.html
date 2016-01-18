@@ -1,0 +1,82 @@
+<html> 
+    <head>
+        <meta charset+UTF-8>
+        <title>Document</title>
+            <style>
+                .taskbox{
+                    border: 3px solid black;
+                    margin:5px;
+                    width:400px;
+                }
+                .taskbox p {
+                    font-weight:bold;
+                }
+                .taskbox p:first-child{
+                    font-weight:bold;
+                    text-align:center;
+                }
+                .completed ul li{
+                    text-decoration: line-through;
+                }
+                
+             .bg-green{
+                 background-color:green;
+             }
+                #task1{
+                    color:pink;
+                }
+          a:link,a:visited,a:hover,a:active{
+              color: mediumorchid;
+              text-decoration:none;
+          }
+          input[type="checkbox"]:checked + span{
+              text-decoration: line-through;
+          }
+          
+            </style>
+        </head>
+        
+        <body>
+            <!-- comment here! -->
+            <a href="http://boisecodeworks.com" target="_blank"> </a>
+            <div id="task1" class="taskbox completed bg-green">
+            <p>tasks 1</p>
+            <ul>
+                <li><a href="#">item 1</a></li>   
+                <li><a href="#">item 2</a></li>
+                <li><a href="#">item 3</a></li>
+            </ul>
+            </div> 
+          
+          <div id="task2" class="taskbox notcompleted">
+            <p>tasks 2</p>
+            <ul>
+                <li>item 1</li>   
+                <li>item 2</li>
+                <li>item 3</li>
+            </ul>
+            </div> 
+            
+        <div id="task3" class="taskbox completed">
+            <p>tasks 3</p>
+            <ul>
+                <li>item 1</li>   
+                <li>item 2</li>
+                <li>item 3</li>
+            </ul>
+            </div> 
+            
+             <div id="task4" class="taskbox">
+            <p>tasks 4</p>
+            <label for="checkbox">
+            <ul>
+                <li>item 1</li>   
+                <li>item 2</li>
+                <li>item 3</li>
+            </ul>
+            </div> 
+            
+            <div id=   ></div>
+            
+        </body> 
+</html>
